@@ -1,0 +1,537 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&family=League+Spartan&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.swiper {
+    width: 600px;
+    height: 300px;
+  }
+body{
+    font-family: 'Inter', sans-serif;
+}
+.section-bg {
+    background-color: #eee;
+}
+.btn-book-a-table{
+        font-size: 14px;
+        color: #fff;
+        border: none;
+        padding: 8px 20px;
+        margin-left: 30px;
+        border-radius: 50px;
+        transition: 0.3s;
+}
+
+.nav-link {
+    position: relative;
+    font-size: 20px;
+}
+.btn__holder__margin{
+    margin-left: 25%;
+    margin-top: 5%;
+}
+.nav-link::after{
+    content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: 
+#ca1e00;
+  transform-origin: bottom right;
+  transition: transform 0.45s ease-out;
+}
+.nav-link:hover:after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+.active-link::after{
+    position: absolute;
+    content: '';
+    width: 100%;
+    transform: scaleX(1);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: 
+  #ca1e00;
+}
+.block{
+    display: block;
+}
+
+/* ==================hero section=================== */
+
+.hero__section h1{
+    font-family: 'Amatic SC', cursive;
+    line-height:76.8px;
+}
+.video-btn i{
+    color: #ca1e00;
+    font-size: 25px;
+}
+.video-btn{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+}
+/* ========================learn more section================= */
+.section-header {
+    text-align: center;
+    padding-bottom: 30px;
+}
+.section-header p {
+    margin: 0;
+    font-size: 48px;
+    font-weight: 400;
+    font-family: 'Amatic SC', cursive;
+
+}
+.section-header h2 {
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    color: #7f7f90;
+    text-transform: uppercase;
+}
+.section-header p span {
+    color:#ca1e00;
+}
+.call-us {
+    left: 10%;
+    right: 10%;
+    bottom: 10%;
+    background-color: #fff;
+    box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.08);
+    padding: 20px;
+    text-align: center;
+}
+.call-us h4 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+.call-us p {
+    font-size: 28px;
+    font-weight: 700;
+    color: #ca1e00;
+}
+/* ===========================why us================================= */
+.why-us .icon-box {
+    text-align: center;
+    background: #fff;
+    padding: 40px 30px;
+    width: 100%;
+    height: 100%;
+    border: 1px solid rgba(55, 55, 63, 0.1);
+    transition: 0.3s;
+}
+.why-us .icon-box h4 {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0 0 30px 0;
+}
+.why-us .icon-box p {
+    font-size: 15px;
+    color: #6c757d;
+}
+.why-us .icon-box i {
+    color: #ca1e00;
+    margin-bottom: 30px;
+    font-size: 32px;
+    margin-bottom: 30px;
+    background: rgba(206, 18, 18, 0.1);
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 64px;
+    height: 64px;
+}
+.why-us .why-box {
+    padding: 30px;
+    background: #ca1e00;
+    color: #fff;
+}
+.why-us .why-box h3 {
+    font-weight: 700;
+    font-size: 34px;
+    margin-bottom: 30px;
+}
+.why-us .why-box p {
+    margin-bottom: 30px;
+}
+.why-us .why-box .more-btn {
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.3);
+    padding: 6px 30px 8px 30px;
+    color: #fff;
+    border-radius: 50px;
+    transition: all ease-in-out 0.4s;
+}
+.more-btn {
+    text-decoration: none;
+}
+/*========================================== counter section================== */
+.stats-counter {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/stats-bg.jpg) center center;
+    background-size: cover;
+    padding: 100px 0;
+    color: white;
+    background-attachment: fixed;
+}
+.stats-counter .stats-item {
+    padding: 30px;
+    width: 100%;
+}
+.stats-counter .stats-item span {
+    font-size: 48px;
+    display: block;
+    color: #fff;
+    font-weight: 700;
+}
+.stats-counter .stats-item p {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.6);
+}
+/* =====================menu============================= */
+.menu .tab-content .tab-header p {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #676775;
+    margin-bottom: 0;
+}
+
+.section-header h2 {
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    color: #7f7f90;
+    text-transform: uppercase;
+    font-family: 'Amatic SC', cursive;
+    
+}
+.menu .tab-content .menu-item h4 {
+    font-size: 22px;
+    font-weight: 500;
+    color: var(--color-secondary);
+    font-family: var(--font-secondary);
+    font-weight: 300;
+    margin-bottom: 5px;
+}
+.menu .tab-content .menu-item .price {
+    font-size: 24px;
+    font-weight: 700;
+    color: #ca1e00;
+}
+.menu .tab-content .menu-item {
+    -moz-text-align-last: center;
+    text-align-last: center;
+}
+.menu .nav-link {
+    margin: 0 10px;
+    padding: 10px 5px;
+    transition: 0.3s;
+    color: var(--color-secondary);
+    border-radius: 0;
+    cursor: pointer;
+    height: 100%;
+    border: 0;
+    border-bottom: 2px solid #b6b6bf;
+}
+/* ====================testomonial===================== */
+.tab-header{
+    margin:50px 0px;
+}
+.testimonials{
+    padding-bottom: 50px;
+}
+.testimonials .section-header {
+    margin-bottom: 40px;
+}
+.testimonials .testimonial-item .testimonial-content {
+    border-left: 3px solid #ca1e00;
+    padding-left: 30px;
+}
+.testimonial-img {
+    border-radius: 50%;
+    border: 4px solid #fff;
+    margin: 0 auto;
+}
+.stars{
+    color: gold;
+}
+/* =====================gallery=================== */
+.img-holder{
+    overflow: hidden;
+    height: 700px;
+    width: 600px;
+
+}
+.img-holder img{
+    height: 100%;
+}
+/* ============================chef================== */
+.chefs .chef-member {
+    overflow: hidden;
+    text-align: center;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0px 0 30px rgba(55, 55, 63, 0.08);
+    transition: 0.3s;
+    position: relative;
+}
+.chefs .chef-member:hover {
+    scale: 1.1;
+    z-index: 300;
+
+}
+.chefs .chef-member .member-info h4 {
+    font-weight: 700;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+.chefs .chef-member .social {
+    position: absolute;
+    right: -100%;
+    top: 30px;
+    opacity: 0;
+    border-radius: 4px;
+    transition: 0.5s;
+    background: rgba(255, 255, 255, 0.3);
+    z-index: 200;
+}
+.chefs .chef-member .member-info h4 {
+    font-weight: 700;
+    margin-bottom: 5px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+/* ===================form================= */
+.book-a-table .reservation-form-bg {
+    background: rgba(55, 55, 63, 0.04);}
+
+/* =====================footer==================== */
+.footer {
+    font-size: 14px;
+    background-color: #1f1f24;
+    padding: 50px 0;
+    color: rgba(255, 255, 255, 0.7);
+}
+.footer .footer-links {
+    margin-bottom: 30px;
+}
+.footer h4 {
+    font-size: 16px;
+    font-weight: bold;
+    position: relative;
+    padding-bottom: 5px;
+    color: #fff;
+}
+.footer .social-links a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.7);
+    margin-right: 10px;
+    transition: 0.3s;
+}
+.footer .copyright {
+    text-align: center;
+    padding-top: 30px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+.footer .icon {
+    margin-right: 15px;
+    font-size: 24px;
+    line-height: 0;
+}
+
+
+
+/* ==========ipad media querries================ */
+@media screen and (max-width:900px) and (min-width:500px) {
+    p{
+        font-size: 10px !important;
+    }
+    h4{
+        font-size: 15px;
+    }
+   .menu-item img{
+    max-width: 10%;
+   } 
+   .hero__section h1 {
+    font-family: 'Amatic SC', cursive;
+    line-height: 26.8px;
+    font-size: 19px;
+}
+.hero__img img{
+    max-height:250px ;
+}
+.section-header {
+    text-align: center;
+    padding-bottom: 30px;
+}
+.call-us{
+    display: none;
+}
+.call-us h4{
+    font-size: 20px;
+}
+.learn__more__section .content{
+    font-size: 10px;
+}
+.why-us .why-box h3 {
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.why-us .why-box p {
+    margin-bottom: 20px;
+}
+.why-us .why-box .more-btn{
+    padding: 5px 20px 5px 20px;
+}
+.why-us .icon-box h4 {
+    font-size: 15px;
+    font-weight: 400;
+    margin: 0 0 30px 0;
+}
+.why-us .icon-box i {
+    color: #ca1e00;
+    margin-bottom: 30px;
+    font-size: 15px;
+    margin-bottom: 14px;
+    background: rgba(206, 18, 18, 0.1);
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+}
+.stats-counter .stats-item {
+    padding: 10px;
+}
+.testimonial-img {
+    max-width: 42%;
+}
+.stars {
+    color: gold;
+    font-size: 10px;
+}
+.img-holder {
+    overflow: hidden;
+    height: 353px;
+    width: 363px;
+}
+.sent-message{
+    font-size: 10px;
+}
+.navbar-nav .nav-item{
+    display: block;
+width: 100%;
+}
+.btn__holder{
+    display: none;
+}
+}
+/* ==========ipad media querries================ */
+@media screen and (max-width:500px){
+    h1{
+        font-size: 15px !important;
+    }
+    h4{
+        font-size: 12px !important;
+    }
+    h3{
+        font-size: 13px !important;
+    }
+    p{
+        font-size: 8px !important;
+    }
+    .hero__section h1 {
+        font-family: 'Amatic SC', cursive;
+        line-height: 37.8px;
+        font-size: 15px;
+    }
+    .hero__paragraph {
+        font-size: 8px;
+    }
+    .hero__img{
+        display: flex;
+        align-items: center;
+    }
+    .hero__img img{
+        max-width: 125px !important;
+    }
+    .video-btn {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        text-align: center;
+        font-size: 8px;
+    }
+    .hero__btns{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .hero__btns button:nth-child(1){
+        font-size: 7px;
+    padding: 0px;
+    width: 92px;
+    height: 25px;
+    }
+    .call-us{
+        display: none;
+    }
+    .section-header p {
+        margin: 0;
+        font-size: 14px;
+        font-weight: 400;
+        font-family: 'Amatic SC', cursive;
+    }
+    .content{
+        font-size: 10px;
+    }
+    .modal-body iframe{
+        width: 330px;
+    }
+    .menu-item img{
+        max-width: 39%;
+    }
+    .testimonial-img{
+        max-width: 230px;
+    }
+    .stars{
+        font-size: 8px;
+    }
+    .img-holder{
+        height: 500px;
+    }
+    .navbar-nav .nav-item{
+        display: block;
+    width: 100%;
+    }
+    .btn__holder{
+        display: none;
+    }
+}
